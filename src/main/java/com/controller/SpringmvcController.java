@@ -20,7 +20,7 @@ import com.vo.Student;
 
 @Controller
 public class SpringmvcController {
-    @RequestMapping(value = "addStu", produces = "text/html;charset=UTF-8")
+    @RequestMapping(value = "addStu", produces = "application/json;charset=UTF-8")
     @ResponseBody
     public String andStu(@RequestBody String json) throws IOException {
 
